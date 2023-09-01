@@ -21,7 +21,9 @@ p {
   align-items: center;
   margin: 20px;
 }
-
+.article-container a {
+  text-decoration: none;
+}
 .article {
   display: flex;
   flex-direction: column;
