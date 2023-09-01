@@ -8,7 +8,9 @@ const Article = ({ article }) => {
         <div class="article-content">
           <h2 class="article-title">{article.title}</h2>
           <p class="article-details">{article.details}</p>
-          <small class="article-date">Published: {new Date(article.createdAt).toDateString()}</small>
+          <small class="article-date">
+            Published: {new Date(article.createdAt).toDateString()}
+          </small>
         </div>
       </div>
     </a>
