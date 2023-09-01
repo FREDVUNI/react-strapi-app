@@ -5,6 +5,8 @@ function App() {
   return (
     <div>
       <Articles/>
+      <Articles/>
+      <Articles/>
     </div>
   )
 }
