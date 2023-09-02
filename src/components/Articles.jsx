@@ -4,7 +4,7 @@ import Article from "./Article";
 
 const Articles = () => {
   return (
-    <div class="article-container">
+    <div className="article-container">
       {stories.map((article) => (
         <Article key={article.id} article={article} />
       ))}
