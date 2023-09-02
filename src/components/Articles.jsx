@@ -10,7 +10,6 @@ const Articles = () => {
       const response = await fetch("http://localhost:1337/api/articles");
       const data = await response.json();
       setArticles(data.data);
-      console.log(articles);
     } catch (error) {
       console.log(error);
     }

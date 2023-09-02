@@ -1,11 +1,12 @@
 import React from "react";
 
 const Article = ({ article }) => {
+  const imageURL = "http://localhost:1337/";
   return (
     <a href="">
       <div className="article">
         <img
-          src={article.attributes.image}
+          src={`${imageURL}`}
           alt={article.attributes.title}
           className="article-image"
         />
