@@ -7,6 +7,7 @@ This is a responsive web application built using React with Vite as the build to
 - [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
+- [Setting Up Strapi](#setting-up-strapi)
 - [Contributing](#contributing)
 
 ## Features
@@ -55,6 +56,35 @@ Before you begin, ensure you have met the following requirements:
 
 6. Open your browser and access the application at `http://localhost:5173/`.
 
+## Setting Up Strapi
+
+To set up your Strapi backend:
+
+1. Create a new folder for your Strapi project, for example:
+
+   ```bash
+   mkdir api
+   cd api
+   ```
+
+2. Initialize a new Strapi project:
+
+   ```bash
+   npx create-strapi-app .
+   ```
+
+   Follow the prompts to set up your Strapi backend. Make sure to create content types as needed and define your API endpoints.
+
+3. Start the Strapi development server:
+
+   ```bash
+   yarn develop
+   ```
+
+   Your Strapi backend should now be running on `http://localhost:1337`.
+
+4. Configure your React app to make API requests to your Strapi backend. You can use libraries like Axios or the built-in `fetch` API to do this.
+
 ## Contributing
 
 Contributions are welcome! Here's how you can contribute to this project:
@@ -63,4 +93,4 @@ Contributions are welcome! Here's how you can contribute to this project:
 2. Create a new branch for your feature or bug fix.
 3. Make your changes and commit them with clear messages.
 4. Push your changes to your fork.
-5. Create a pull request to the `main` branch of this repository
+5. Create a pull request to the `main` branch of this repository.
