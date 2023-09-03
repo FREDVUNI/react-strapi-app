@@ -11,6 +11,7 @@ const Articles = () => {
       const response = await fetch(API);
       const data = await response.json();
       setArticles(data.data);
+      console.log(articles);
     } catch (error) {
       console.log(error);
     }
