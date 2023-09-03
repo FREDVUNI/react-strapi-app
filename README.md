@@ -87,8 +87,8 @@ To set up your Strapi backend:
 4. Configure your React app to make API requests to your Strapi backend. You can use libraries like Axios or the built-in `fetch` API to do this.
 
 ## Screenshot
-![Uploading image.png…]()
 
+![Uploading image.png…]()
 
 ## Contributing
 
