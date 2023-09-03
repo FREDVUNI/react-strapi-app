@@ -17,7 +17,7 @@ const Articles = () => {
   };
   useEffect(() => {
     getPosts();
-  }, [articles]);
+  }, []);
 
   return (
     <div className="article-container">
