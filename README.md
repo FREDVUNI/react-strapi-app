@@ -1,6 +1,6 @@
 # React Vite App with Strapi Backend
 
-This is a responsive web application built using React with Vite as the build tool and Strapi as the backend CMS (Content Management System). The application is designed to be mobile-friendly and adapt to various screen sizes.
+This responsive web application is built using React with Vite as the build tool and Strapi as the backend CMS (Content Management System). The application is designed to be mobile-friendly and adapt to various screen sizes.
 
 ## Table of Contents
 
@@ -8,13 +8,14 @@ This is a responsive web application built using React with Vite as the build to
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
 - [Setting Up Strapi](#setting-up-strapi)
+- [Screenshot](#screenshot)
 - [Contributing](#contributing)
 
 ## Features
 
 - Modern and responsive UI design.
 - Integration with Strapi CMS for content management.
-- Easy-to-use and customizable.
+- Easy to use and customizable.
 
 ## Prerequisites
 
@@ -46,7 +47,7 @@ Before you begin, ensure you have met the following requirements:
 
 4. Configure environment variables:
 
-   - Create a `.env` file and specify any required environment variables. For example, if you need to connect to the Strapi backend, provide the API URL.
+   - Create a `.env` file and specify any required environment variables. For example, provide the API URL if you need to connect to the Strapi backend.
 
 5. Start the development server:
 
@@ -84,6 +85,10 @@ To set up your Strapi backend:
    Your Strapi backend should now be running on `http://localhost:1337`.
 
 4. Configure your React app to make API requests to your Strapi backend. You can use libraries like Axios or the built-in `fetch` API to do this.
+
+## Screenshot
+![Uploading image.png…]()
+
 
 ## Contributing
 
