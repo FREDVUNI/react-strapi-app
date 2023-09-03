@@ -88,7 +88,8 @@ To set up your Strapi backend:
 
 ## Screenshot
 
-![Uploading image.png…]()
+![image](https://github.com/FREDVUNI/react-strapi-app/assets/41730664/29e2fe0c-45e4-4dd0-8aaf-f3819e4a7c94)
+
 
 ## Contributing
 
