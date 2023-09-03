@@ -4,10 +4,11 @@ import Article from "./Article";
 
 const Articles = () => {
   const [articles, setArticles] = useState([]);
+  const API = import.meta.env.VITE_APP_API;
 
   const getPosts = async () => {
     try {
-      const response = await fetch("http://localhost:1337/api/articles");
+      const response = await fetch(API);
       const data = await response.json();
       setArticles(data.data);
     } catch (error) {
